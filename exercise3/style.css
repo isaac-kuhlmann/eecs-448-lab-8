@@ -1,0 +1,59 @@
+.site:hover {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.0rem;
+}
+#subtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.0rem;
+}
+#picture {
+    height: 500px;
+    width: 450px;
+}
+
+#picture:hover {
+    border-style: solid;
+    border-color: black;
+}
+
+#movie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+body {
+    background-image: url("pictures/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+p.white {
+    color: white;
+}
+
+* {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
